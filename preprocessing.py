@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # import
 import re
 import nltk
@@ -20,7 +20,7 @@ def preprocessor(text):
     text = text.split()
     filtered_words = [word for word in text if word not in stop_words]
     lemmatized_words = [wnl.lemmatize(word) for word in filtered_words]
-=======
+    
 # import
 import re
 import nltk

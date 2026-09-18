@@ -2,6 +2,9 @@ import streamlit as st
 from preprocessing import preprocessor
 import joblib
 from PIL import Image
+import nltk
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
 
 # Load the logo image
 logo = Image.open("opay image.jpg")

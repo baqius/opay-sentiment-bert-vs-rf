@@ -49,13 +49,6 @@ An automated sentiment classifier allows a product or customer experience team t
 
 **Random Forest matched or slightly outperformed BERT** on this dataset — a deliberately reported, evidence-based outcome rather than an assumption that a larger model is always better. Given Random Forest's dramatically lower computational cost, faster inference, and simpler deployment footprint (no GPU, no deep learning framework), it was selected as the production model.
 
-## Tech Stack
-
-- **Modeling:** Python, scikit-learn, PyTorch, Hugging Face Transformers (BERT)
-- **NLP preprocessing:** NLTK (stopwords, lemmatization)
-- **Deployment:** Streamlit (interactive demo), FastAPI (REST API), Docker
-- **Serialization:** joblib
-
 ## Getting Started
 
 ### Run the Streamlit app locally
